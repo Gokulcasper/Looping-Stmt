@@ -1,22 +1,27 @@
-// for(let i=0;i<=10;i++)
+// For in
+
+// const person={
+//     name:'gokul',
+//     age:'24',
+//     sex:'male'
+// };
+// for(let key in person)
 // {
-//     if(i%2 !==0)
-//     {
-//         console.log("Odd Nunber : ", i);
-//     }
+//     console.log(key+":",person[key]);
 // }
 
+// //For in Array
 
-
-//while Condition
-
-
-let i=0;
-while(i<=10)
+let colors=['blue','red','green'];
+for(let key in colors)
 {
-    if(i%2 !==0)
-    {
-        console.log("Odd Nunber : ", i);
-    }
-    i++
+    console.log(key);
+}
+
+
+// For of
+
+for(let color of colors)
+{
+    console.log("color :", color);
 }
